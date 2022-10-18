@@ -36,7 +36,7 @@ Route::get('/list', function () {
 
     Route::get('/login', [LoginController::class, 'show']);
     Route::post('/login', [LoginController::class, 'logear']);
-    Route::posts('/logout', [LoginController::class, 'logout']);
+    Route::post('/logout', [LoginController::class, 'logout']);
 
 
 // Route::get('/register', [UserController::class, 'create']);

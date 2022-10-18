@@ -39,6 +39,11 @@
                         <a class=" nav-link" href="/login">Login</a>
                     </button>
 
+                    <form action="{{ url('logout') }}" method="POST">
+                                @csrf
+                                <button class="bg-danger rounded"type="submit"> Logout </button>
+                            </form>
+                            
                     <button class="bg-primary rounded">
                         <a class="nav-link" href="/register">Register</a>
                     </button>

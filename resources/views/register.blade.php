@@ -70,13 +70,11 @@
                     placeholder='Crear password'
                 />
 
-                <!-- <select name="rol" id="rol"{...register('rol',
-                    {required: true, enum: [ 'Super-rol', 'Rolandrols']})}>
+                <select name="rol" >
                     <option value="">Seleccione un rol</option>
                     <option value="Super-rol">Super-rol</option>
                     <option value="Rolandrols">RolandRols</option>
-                    
-                </select> -->
+                </select>
 
                 <button className='btn' type='submit'>
 					Enviar

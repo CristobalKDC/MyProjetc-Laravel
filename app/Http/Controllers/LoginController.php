@@ -12,7 +12,7 @@ class LoginController extends Controller
 {
     public function show(){
         if(Auth::check()){
-            return redirect()->route('/');
+            return redirect('/');
         }
         return view('login');
     }

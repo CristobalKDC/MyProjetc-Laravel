@@ -40,6 +40,9 @@
                         <a class=" nav-link" href="/login">Login</a>
                     </button>
 
+
+                    
+
                     <button class="bg-primary rounded">
                         <a class="nav-link" href="/register">Register</a>
                     </button>

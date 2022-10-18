@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class User_rol extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'user_id',
+        'rol_id'
+    ];
 }
